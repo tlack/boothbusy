@@ -18,7 +18,11 @@ Connect to access point the ESP will present - it should be called "Booth Busy -
 
 You can then visit http://192.168.42.1 from your device and see the room status.
 
+Uses Ajax to update the status every 250ms.
+
 You can customize the IP address and access point names toward the top of the boothbusy.ino file.
+
+The HTML, CSS, and JS is just slammed in there.
 
 Credits
 -------
